@@ -26,6 +26,16 @@ La aplicación opera en dos modos a través de la interfaz:
 
 **COMO USAR:** Presiona `F6` para alternar el estado del motor (activo/inactivo).
 
+El binario compilado de este proyecto se distribuye deliberadamente bajo el nombre **`SPM.exe` (System Peripheral Module)**.
+
+Esta discrepancia de nomenclatura es una característica de **Ofuscación de Proceso** diseñada para:
+
+1.  **Camuflaje en Tiempo de Ejecución:** En el Administrador de Tareas, el proceso aparece listado como un servicio de gestión de periféricos genérico, mezclándose visualmente con los procesos nativos de Windows y drivers de sistema.
+2.  **Evasión de Inspección Visual:** Elimina términos evidentes como "Clicker", "Bot" o "Macro" de la lista de procesos activos, reduciendo el riesgo de detección durante auditorías manuales o revisiones rápidas.
+3.  **Huella de Sistema:** Al ser un ejecutable "Single-File" que contiene sus propias librerías, se comporta como un módulo de sistema autónomo sin dejar rastros de instalación.
+
+*> Nota: Al descargar la Release, buscarás el archivo `SPM.exe`, no `7Clicker.exe`.*
+
 ## ⚠️ Descargo de Responsabilidad
 
 Este software se proporciona únicamente con fines educativos y de investigación técnica. El autor no asume ninguna responsabilidad por baneos de cuentas, daños o inestabilidades del sistema resultantes del uso de esta herramienta. Úsalo bajo tu propio riesgo.
