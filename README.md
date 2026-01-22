@@ -11,7 +11,6 @@ Herramienta de automatización de entrada de alta precisión diseñada para la s
 
 * **Motor de Distribución Gaussiana:** Los clics se generan utilizando curvas de probabilidad matemática (transformada de Box-Muller), eliminando los patrones estáticos predecibles.
 * **Modo Fantasma (Human Idle):** Simula la deriva orgánica del ratón y micro-movimientos durante los periodos de espera. Incluye lógica de comportamiento errático (distracciones, variaciones en doble clic).
-* **Arquitectura Sigilosa:** Se compila como `SPM.exe` (Service Performance Module). Se ejecuta como un proceso nativo independiente sin dependencias externas (núcleo .NET 10 integrado en el ejecutable).
 * **Input a Nivel de Kernel:** Utiliza llamadas directas a `user32.dll` para una ejecución de baja latencia.
 
 ## 🛠️ Uso
