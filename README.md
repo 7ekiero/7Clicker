@@ -7,13 +7,13 @@ Herramienta de automatización de entrada de alta precisión diseñada para la s
 <img width="434" height="442" alt="{57BD8740-0EFA-4E8D-B294-70C07B9B24BB}" src="https://github.com/user-attachments/assets/6a6a5ce1-ad75-4e15-9c08-5331d0f7b22f" />
 
 
-## ⚡ Características Principales
+## Características Principales
 
 * **Motor de Distribución Gaussiana:** Los clics se generan utilizando curvas de probabilidad matemática (transformada de Box-Muller), eliminando los patrones estáticos predecibles.
 * **Modo Fantasma (Human Idle):** Simula la deriva orgánica del ratón y micro-movimientos durante los periodos de espera. Incluye lógica de comportamiento errático (distracciones, variaciones en doble clic).
 * **Input a Nivel de Kernel:** Utiliza llamadas directas a `user32.dll` para una ejecución de baja latencia.
 
-## 🛠️ Uso
+## Uso
 
 La aplicación opera en dos modos a través de la interfaz:
 
@@ -35,7 +35,7 @@ Esta discrepancia de nomenclatura es una característica de **Ofuscación de Pro
 
 *> Nota: Al descargar la Release, buscarás el archivo `SPM.exe`, no `7Clicker.exe`.*
 
-## ⚠️ Descargo de Responsabilidad
+## Descargo de Responsabilidad
 
 Este software se proporciona únicamente con fines educativos y de investigación técnica. El autor no asume ninguna responsabilidad por baneos de cuentas, daños o inestabilidades del sistema resultantes del uso de esta herramienta. Úsalo bajo tu propio riesgo.
 
